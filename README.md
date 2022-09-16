@@ -46,5 +46,9 @@ from Maxim which is low power and ESD protected.
 Note that the NMEA signal (negative voltage on the "A" or "+" line for logic 1,
 positive for logic 0) is inverted compared to the TTL-level signals used by the
 Arduino (+5V for logic 1, 0V for logic 0). This is addressed by connecting the
-NMEA A/+ lines to the *inverting* input/output pins of the RS422 transceiver,
-and the B/- lines to the *non-inverting* pins.
+NMEA A/+ lines to the *inverting* input/output pins of the RS422 transceiver
+("B"/"Z"), and the B/- lines to the *non-inverting* pins ("A"/"Y").
+
+The complete circuit is shown below:
+
+![](circuit.svg)
