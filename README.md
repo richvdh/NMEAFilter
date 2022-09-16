@@ -51,4 +51,4 @@ NMEA A/+ lines to the *inverting* input/output pins of the RS422 transceiver
 
 The complete circuit is shown below:
 
-![](circuit.svg)
+![circuit](https://raw.githubusercontent.com/richvdh/NMEAFilter/master/circuit.svg)
